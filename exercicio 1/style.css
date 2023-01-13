@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 1rem 2rem;
+}
+
+.item-image-1 {
+    width: 2rem;
+}
+
+.item-image-2 {
+    width: 10rem;
+}
+
+.item-nav a {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 0.4rem ;
+    color: white;
+    font-family: sans-serif;
+    padding: 0.4rem;
+}
+
+.item-nav a:hover {
+    border-color: red;
+    color: red;
+    transition: 0.4s;
+}
